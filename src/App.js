@@ -14,6 +14,28 @@ class App extends Component {
     return (
       <>
         <Nav />
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 col-lg-4">
+              <div className="card">
+                <div className="top"><img className="pictures" src="./images/Handshake.jpg" /></div>
+                <div className="bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+              </div>
+            </div>
+            <div className="col-sm-12 col-lg-4">
+              <div className="card">
+                <div className="top"><img className="pictures" src="./images/Weights.jpg" /></div>
+                <div className="bottom">Donec id eros ultricies, malesuada leo at, sollicitudin enim.</div>
+              </div>
+            </div>
+            <div className="col-sm-12 col-lg-4">
+              <div className="card">
+                <div className="top"><img className="pictures" src="./images/Workout.jpg" /></div>
+                <div className="bottom">Aenean porttitor dictum orci, in porttitor orci semper in.</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </>
     );
   }
