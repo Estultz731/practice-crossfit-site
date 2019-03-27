@@ -15,6 +15,19 @@ class App extends Component {
       <>
         <Nav />
         <div className="container">
+          <div className="row hero-section">
+            <div className="col-sm-12 col-lg-4">
+              <div className="hero-image">
+                <img className="picture" src="./images/Deadlift.jpg" />
+              </div>
+            </div>
+            <div className="col-sm-12 col-lg-8">
+              <div className="hero-text">
+                <h1>Crossfit</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
           <div className="row">
             <div className="col-sm-12 col-lg-4">
               <div className="card">
